@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0C436FF1A812E420002AE8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C436FE1A812E420002AE8F /* main.m */; };
+		A0C437021A812E420002AE8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C437011A812E420002AE8F /* AppDelegate.m */; };
+		A0C437051A812E420002AE8F /* VuforiaTestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0C437031A812E420002AE8F /* VuforiaTestApp.xcdatamodeld */; };
+		A0C437081A812E420002AE8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C437071A812E420002AE8F /* ViewController.m */; };
+		A0C4370B1A812E420002AE8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C437091A812E420002AE8F /* Main.storyboard */; };
+		A0C4370D1A812E420002AE8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C4370C1A812E420002AE8F /* Images.xcassets */; };
+		A0C437101A812E420002AE8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0C4370E1A812E420002AE8F /* LaunchScreen.xib */; };
+		A0C4371C1A812E420002AE8F /* VuforiaTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C4371B1A812E420002AE8F /* VuforiaTestAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0C437161A812E420002AE8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0C436F11A812E420002AE8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0C436F81A812E420002AE8F;
+			remoteInfo = VuforiaTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0C436F91A812E420002AE8F /* VuforiaTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VuforiaTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C436FD1A812E420002AE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C436FE1A812E420002AE8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0C437001A812E420002AE8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0C437011A812E420002AE8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0C437041A812E420002AE8F /* VuforiaTestApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VuforiaTestApp.xcdatamodel; sourceTree = "<group>"; };
+		A0C437061A812E420002AE8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0C437071A812E420002AE8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0C4370A1A812E420002AE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0C4370C1A812E420002AE8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0C4370F1A812E420002AE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A0C437151A812E420002AE8F /* VuforiaTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VuforiaTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C4371A1A812E420002AE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C4371B1A812E420002AE8F /* VuforiaTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VuforiaTestAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0C436F61A812E420002AE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C437121A812E420002AE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0C436F01A812E420002AE8F = {
+			isa = PBXGroup;
+			children = (
+				A0C436FB1A812E420002AE8F /* VuforiaTestApp */,
+				A0C437181A812E420002AE8F /* VuforiaTestAppTests */,
+				A0C436FA1A812E420002AE8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0C436FA1A812E420002AE8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0C436F91A812E420002AE8F /* VuforiaTestApp.app */,
+				A0C437151A812E420002AE8F /* VuforiaTestAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0C436FB1A812E420002AE8F /* VuforiaTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				A0C437001A812E420002AE8F /* AppDelegate.h */,
+				A0C437011A812E420002AE8F /* AppDelegate.m */,
+				A0C437061A812E420002AE8F /* ViewController.h */,
+				A0C437071A812E420002AE8F /* ViewController.m */,
+				A0C437091A812E420002AE8F /* Main.storyboard */,
+				A0C4370C1A812E420002AE8F /* Images.xcassets */,
+				A0C4370E1A812E420002AE8F /* LaunchScreen.xib */,
+				A0C437031A812E420002AE8F /* VuforiaTestApp.xcdatamodeld */,
+				A0C436FC1A812E420002AE8F /* Supporting Files */,
+			);
+			path = VuforiaTestApp;
+			sourceTree = "<group>";
+		};
+		A0C436FC1A812E420002AE8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0C436FD1A812E420002AE8F /* Info.plist */,
+				A0C436FE1A812E420002AE8F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0C437181A812E420002AE8F /* VuforiaTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0C4371B1A812E420002AE8F /* VuforiaTestAppTests.m */,
+				A0C437191A812E420002AE8F /* Supporting Files */,
+			);
+			path = VuforiaTestAppTests;
+			sourceTree = "<group>";
+		};
+		A0C437191A812E420002AE8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0C4371A1A812E420002AE8F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0C436F81A812E420002AE8F /* VuforiaTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C4371F1A812E420002AE8F /* Build configuration list for PBXNativeTarget "VuforiaTestApp" */;
+			buildPhases = (
+				A0C436F51A812E420002AE8F /* Sources */,
+				A0C436F61A812E420002AE8F /* Frameworks */,
+				A0C436F71A812E420002AE8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VuforiaTestApp;
+			productName = VuforiaTestApp;
+			productReference = A0C436F91A812E420002AE8F /* VuforiaTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0C437141A812E420002AE8F /* VuforiaTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C437221A812E420002AE8F /* Build configuration list for PBXNativeTarget "VuforiaTestAppTests" */;
+			buildPhases = (
+				A0C437111A812E420002AE8F /* Sources */,
+				A0C437121A812E420002AE8F /* Frameworks */,
+				A0C437131A812E420002AE8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0C437171A812E420002AE8F /* PBXTargetDependency */,
+			);
+			name = VuforiaTestAppTests;
+			productName = VuforiaTestAppTests;
+			productReference = A0C437151A812E420002AE8F /* VuforiaTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0C436F11A812E420002AE8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Eduardo;
+				TargetAttributes = {
+					A0C436F81A812E420002AE8F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A0C437141A812E420002AE8F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A0C436F81A812E420002AE8F;
+					};
+				};
+			};
+			buildConfigurationList = A0C436F41A812E420002AE8F /* Build configuration list for PBXProject "VuforiaTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0C436F01A812E420002AE8F;
+			productRefGroup = A0C436FA1A812E420002AE8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0C436F81A812E420002AE8F /* VuforiaTestApp */,
+				A0C437141A812E420002AE8F /* VuforiaTestAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0C436F71A812E420002AE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C4370B1A812E420002AE8F /* Main.storyboard in Resources */,
+				A0C437101A812E420002AE8F /* LaunchScreen.xib in Resources */,
+				A0C4370D1A812E420002AE8F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C437131A812E420002AE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0C436F51A812E420002AE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C437051A812E420002AE8F /* VuforiaTestApp.xcdatamodeld in Sources */,
+				A0C437021A812E420002AE8F /* AppDelegate.m in Sources */,
+				A0C437081A812E420002AE8F /* ViewController.m in Sources */,
+				A0C436FF1A812E420002AE8F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C437111A812E420002AE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C4371C1A812E420002AE8F /* VuforiaTestAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0C437171A812E420002AE8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0C436F81A812E420002AE8F /* VuforiaTestApp */;
+			targetProxy = A0C437161A812E420002AE8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0C437091A812E420002AE8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C4370A1A812E420002AE8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0C4370E1A812E420002AE8F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C4370F1A812E420002AE8F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0C4371D1A812E420002AE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0C4371E1A812E420002AE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0C437201A812E420002AE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VuforiaTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0C437211A812E420002AE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VuforiaTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0C437231A812E420002AE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VuforiaTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VuforiaTestApp.app/VuforiaTestApp";
+			};
+			name = Debug;
+		};
+		A0C437241A812E420002AE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VuforiaTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VuforiaTestApp.app/VuforiaTestApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0C436F41A812E420002AE8F /* Build configuration list for PBXProject "VuforiaTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C4371D1A812E420002AE8F /* Debug */,
+				A0C4371E1A812E420002AE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C4371F1A812E420002AE8F /* Build configuration list for PBXNativeTarget "VuforiaTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C437201A812E420002AE8F /* Debug */,
+				A0C437211A812E420002AE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0C437221A812E420002AE8F /* Build configuration list for PBXNativeTarget "VuforiaTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C437231A812E420002AE8F /* Debug */,
+				A0C437241A812E420002AE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0C437031A812E420002AE8F /* VuforiaTestApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0C437041A812E420002AE8F /* VuforiaTestApp.xcdatamodel */,
+			);
+			currentVersion = A0C437041A812E420002AE8F /* VuforiaTestApp.xcdatamodel */;
+			path = VuforiaTestApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A0C436F11A812E420002AE8F /* Project object */;
+}
