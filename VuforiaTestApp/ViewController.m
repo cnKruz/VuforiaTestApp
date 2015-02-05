@@ -24,4 +24,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)StartRA:(id)sender{
+   // Class vcClass = NSClassFromString(@"ImageTargetsViewController");
+    //id vc = [[vcClass alloc]  initWithNibName:nil bundle:nil];
+    
+    //[self.navigationController pushViewController:vc animated:YES];
+    
+}
 @end
